@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Roboto;
+    font-size: 10px;
+    line-height: 3.5rem;
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Roboto Condensed;
+}
+
+h1{
+    font-size: 9em;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+h2{
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 4em;
+}
+
+h3{
+    font-size: 4.2em;
+    text-align: center;
+    line-height: 1em;
+}
+
+h4{
+    font-size: 1.5em;
+    letter-spacing: 0.4px;
+    line-height: 1em;
+}
+
+h5{
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+.nav-bar{
+    background-color: rgb(25, 33, 41);
+}
+
+.nav-bar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header{
+    background-image: url('https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg');
+    background-position: 0 0;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.header h2{
+    text-shadow: #020819 8px -20px 9px;
+    color: #fff;
+}
+
+.header aside{
+    font-size: 2.5em;
+}
+
+.general-information{
+    background-color: rgb(25, 33, 41);
+    color: #fff;
+}
+
+/* -->  Blue	67, 163, 230	
+Dark Blue	25, 33, 41	
+Text	0, 0, 0 */
